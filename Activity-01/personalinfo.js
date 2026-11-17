@@ -10,8 +10,7 @@ const Subjects = {
     sub2: "Event Driven Programming",
     sub3: "AppDev",
     sub4: "Networking1",
-}
-
+};
 
 const grade1 = 90;
 const grade2 = 85;
