@@ -1,32 +1,37 @@
-const studentName = "Camenade, Josue Jr. P.";
-const studentId = "2026-6564";
-const yearLevel = "||";
-const program = "Information Technology";
+const Student = {
+    name: "Camenade, Josue Jr. P.",
+    id: "2026-6564",
+    yearLevel: "||",
+    program: "Information Technology",
+};
 
-const subject1 = "IPT101";
-const subject2 = "Event Driven Programming";
-const subject3 = "AppDev";
-const subject4 = "Networking1";
+const Subjects = {
+    sub1: "IPT101",
+    sub2: "Event Driven Programming",
+    sub3: "AppDev",
+    sub4: "Networking1",
+}
 
-const grade1 = 90; 
+
+const grade1 = 90;
 const grade2 = 85;
 const grade3 = 88;
 const grade4 = 92;
 
 const totalGrades = grade1 + grade2 + grade3 + grade4;
-const gwa = totalGrades / 4; 
+const gwa = totalGrades / 4;
 
-console.log("Student name: " + studentName);
-console.log("ID Number: " + studentId);
-console.log("Year Level: " + yearLevel);
-console.log("Program: " + program);
+console.log("Student name: " + Student.name);
+console.log("ID Number: " + Student.id);
+console.log("Year Level: " + Student.yearLevel);
+console.log("Program: " + Student.program);
 
 console.log("\n= Courses Enrolled =\n");
 
-console.log("Subject 1: " + subject1 + " - Grade: " + grade1);
-console.log("Subject 2: " + subject2 + " - Grade: " + grade2);
-console.log("Subject 3: " + subject3 + " - Grade: " + grade3);
-console.log("Subject 4: " + subject4 + " - Grade: " + grade4);
+console.log("Subject 1: " + Subjects.sub1 + " - Grade: " + grade1);
+console.log("Subject 2: " + Subjects.sub2 + " - Grade: " + grade2);
+console.log("Subject 3: " + Subjects.sub3 + " - Grade: " + grade3);
+console.log("Subject 4: " + Subjects.sub4 + " - Grade: " + grade4);
 
 console.log("\nGeneral Weighted Average: " + gwa);
 
