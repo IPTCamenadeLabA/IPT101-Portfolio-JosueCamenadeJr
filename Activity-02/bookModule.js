@@ -18,3 +18,6 @@ export function getBookDetails(bookObj) {
 export function printDetails(bookObj, status){
   return '[Status: ${status}] ${bookObj,getBookDetails()}';
 }
+
+
+//IPTTeacherJonas: Wrong sub-repo. There is no Activity-02 repository instruction in our printed laboratory. 
